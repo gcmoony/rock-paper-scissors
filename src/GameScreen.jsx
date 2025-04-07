@@ -89,7 +89,6 @@ export default function GameScreen({ setGameStart }) {
     return choices[Math.floor(Math.random() * 3)]
   }
   function handlePlayerSelect(e) {
-    console.log("pressed")
     setPlayerHand((prev) => (prev = e.target.value))
     setComputerHand(handleComputerSelect)
     setIsComparing(true)

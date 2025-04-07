@@ -1,12 +1,28 @@
-# React + Vite
+# Rock, Paper, Scissors
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple browser game made in React.
 
-Currently, two official plugins are available:
+## What does it do?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It is the game [Rock, Paper, Scissors]() made in React. It uses state to manage
+the player and computer score, their round choices (rock, paper, or scissors),
+and the game state. This was a nice project to help me learn a little more about
+the complications of managing state.
 
-## Expanding the ESLint configuration
+What I've learned from this project is that handling state in React can be
+tricky. I drafted up an idea of how the game would flow:
+<img src="./game logic map.png" alt="Game logic flow chart">
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Since React state updates are asynchronous, I also had to combine interesting
+conditionals with useEffect, to ensure the updates occur once the state of
+variables have been set.
+
+### What I'd like to do in the future
+
+- Implement sockets to connect with other players
+- Make the UI a little more appealing
+
+## Demo
+
+Here's a demo of the game in action:
+<img src="rock-paper-scissors-demo.gif" alt="Project preview">
