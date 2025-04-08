@@ -4,7 +4,7 @@ A simple browser game made in React.
 
 ## What does it do?
 
-It is the game [Rock, Paper, Scissors]() made in React. It uses state to manage
+It is the game [Rock, Paper, Scissors](https://en.wikipedia.org/wiki/Rock_paper_scissors) made in React. It uses state to manage
 the player and computer score, their round choices (rock, paper, or scissors),
 and the game state. This was a nice project to help me learn a little more about
 the complications of managing state.
