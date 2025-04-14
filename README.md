@@ -1,6 +1,6 @@
 # Rock, Paper, Scissors
 
-A simple browser game made in React.
+A simple browser game made in React. [Play it here!](https://rockpaperscissors-gc.netlify.app/)
 
 ## What does it do?
 
